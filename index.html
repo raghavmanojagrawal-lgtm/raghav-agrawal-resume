@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raghav Agrawal — Resume</title>
+  <meta name="description" content="Personal resume website of Raghav Agrawal, undergraduate student at IIM Bangalore.">
+  <!-- Google Fonts: Poppins for headings, Lora for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== Navigation bar (flexbox, sticky) ===== -->
+  <header id="top" class="site-header">
+    <nav class="navbar">
+      <a href="#top" class="logo">RA<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="btn btn-small">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== Hero ===== -->
+    <section id="about" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Raghav Agrawal</h1>
+        <p class="tagline">Undergraduate student at IIM Bangalore. Interested in marketing, product and building simple websites for small businesses.</p>
+        <p class="summary">I like turning messy problems into clear plans — whether that's a college fest budget, a survey of 120 canteen users, or a bakery that needed a website. Currently learning web development (HTML, CSS, JavaScript) alongside my business coursework.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn">See my work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+        <ul class="quick-facts">
+          <li><strong>Bengaluru</strong> India</li>
+          <li><strong>2025 – present</strong> IIM Bangalore</li>
+          <li><strong>Open to</strong> internships</li>
+        </ul>
+      </div>
+      <div class="hero-card">
+        <div class="avatar">RA</div>
+        <span class="badge">Available for summer 2027 internships</span>
+      </div>
+    </section>
+
+    <!-- ===== Skills (cards, CSS grid) ===== -->
+    <section id="skills" class="section section-alt">
+      <div class="section-head">
+        <p class="eyebrow">What I work with</p>
+        <h2>Skills</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Web</h3>
+          <ul class="tag-list">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript (basics)</li><li>Git &amp; GitHub</li><li>GitHub Pages</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Business</h3>
+          <ul class="tag-list">
+            <li>Excel &amp; Google Sheets</li><li>Market research</li><li>Financial basics</li><li>Presentations</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Tools</h3>
+          <ul class="tag-list">
+            <li>Canva</li><li>Figma (basics)</li><li>Notion</li><li>Google Workspace</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Working style</h3>
+          <ul class="tag-list">
+            <li>Clear writing</li><li>Team coordination</li><li>Deadline-driven</li><li>Curious</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Experience (timeline) ===== -->
+    <section id="experience" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Where I've worked</p>
+        <h2>Experience</h2>
+      </div>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <span class="timeline-date">May – Jul 2026</span>
+          <div class="timeline-body">
+            <h3>Marketing &amp; Operations Intern</h3>
+            <p class="muted">Early-stage D2C healthy snacks brand, Bengaluru</p>
+            <ul>
+              <li>Ran Instagram content calendar for 10 weeks; follower count grew from ~1,200 to ~2,100.</li>
+              <li>Built the weekly inventory tracker in Google Sheets that the team still uses.</li>
+              <li>Visited 30+ retail stores to collect shelf-placement and pricing data for the founders.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-date">Aug 2025 – Mar 2026</span>
+          <div class="timeline-body">
+            <h3>Sponsorship Team Member — College Cultural Fest</h3>
+            <p class="muted">IIM Bangalore</p>
+            <ul>
+              <li>Part of a 6-member team that reached out to 80+ brands and closed sponsorships worth ₹3.5 lakh.</li>
+              <li>Drafted the sponsorship deck and handled follow-ups with 15 accounts.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Projects (cards) ===== -->
+    <section id="projects" class="section section-alt">
+      <div class="section-head">
+        <p class="eyebrow">Things I've built</p>
+        <h2>Projects</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card project-card">
+          <span class="project-type">Website</span>
+          <h3>Kesar &amp; Crumb — bakery website</h3>
+          <p>Four-page responsive website for a neighbourhood bakery: menu with category filter, enquiry form, embedded map. HTML, CSS and vanilla JavaScript, hosted on GitHub Pages.</p>
+          <a href="https://raghavmanojagrawal-lgtm.github.io/Kesar-and-crumb_IIMB/" class="text-link" target="_blank" rel="noopener">View live site →</a>
+        </article>
+        <article class="card project-card">
+          <span class="project-type">Research</span>
+          <h3>Campus canteen survey</h3>
+          <p>Designed and ran a 12-question survey with 120 responses on canteen wait times and menu preferences; presented three recommendations to the student council.</p>
+        </article>
+        <article class="card project-card">
+          <span class="project-type">Spreadsheet</span>
+          <h3>Personal finance tracker</h3>
+          <p>Monthly budget and expense tracker in Excel with category summaries and a simple dashboard. Used by 20+ classmates after I shared the template.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section id="education" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Where I've studied</p>
+        <h2>Education</h2>
+      </div>
+      <div class="edu-list">
+        <div class="edu-item">
+          <div>
+            <h3>Indian Institute of Management Bangalore</h3>
+            <p class="muted">Undergraduate programme · Bengaluru</p>
+          </div>
+          <span class="edu-year">2025 – present</span>
+        </div>
+        <div class="edu-item">
+          <div>
+            <h3>Senior Secondary (Class XII), Commerce with Mathematics</h3>
+            <p class="muted">CBSE</p>
+          </div>
+          <span class="edu-year">2025</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section contact">
+      <div class="contact-box">
+        <h2>Let's talk</h2>
+        <p>I'm looking for internships in marketing, product or operations, and I'm happy to build simple websites for small businesses on the side.</p>
+        <div class="contact-actions">
+          <a href="mailto:raghav.agrawal@example.com" class="btn">Email me</a>
+          <a href="https://github.com/raghavmanojagrawal-lgtm" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Raghav Agrawal · Built with HTML &amp; CSS · <a href="#top">Back to top ↑</a></p>
+  </footer>
+
+</body>
+</html>
